@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <script type="text/javascript">
+function insertText () {
+    document.getElementById('td1').innerHTML = var x = document.createElement("P");
+var t = document.createTextNode(dictionary.first[0]);
+x.appendChild(t);
+document.body.appendChild(x);;
+}
+</script>
     <style>
     body{
       background-image: url("https://cdn.discordapp.com/attachments/814993676140150825/815117216148226108/image0.png")
@@ -8,10 +16,13 @@
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>klimate-leaderboard</title>
+    <title>Klimate-leaderboard</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body onload = "insertText();">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-database.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
     <ul>
@@ -22,6 +33,33 @@
       <li><a href="signUp.html"class="right">Sign Up</a></li>
       <li><a href="logIn.html"class="right">Log In</a>
     </ul>
-    <script src="script.js"class="left"></script>
+    <script src="script.js"></script>
+    <!-- JS isn't done so this is just a mock-up. Functionallity coming soon! -->
+    <h1 class="lBoard">Leaderboard</h1>
+    <table class="scoreBoard">
+      <tr>
+        <th>Username</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td id="td1">Louis Sansevero</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;4</td>
+      </tr>
+      <tr>
+        <td>Robert Goll</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;3</td>
+      </tr>
+      <tr>
+        <td>Simone Zabid</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;2</td>
+      </tr>
+      <tr>
+        <td>Cyrus Kottmeier</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;1</td>
+      </tr>      
+    </table>
+<!-- Some other HTML... -->
+  <div id="comments">
+  </div>
   </body>
 </html>

@@ -9,6 +9,10 @@
   </style>
 </head>
 <body>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-database.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
     <ul>
@@ -19,21 +23,23 @@
       <li><a href="signUp.html"class="selectedRight">Sign Up</a></li>
       <li><a href="logIn.html"class="right">Log In</a>
     </ul>
+    <!-- JS isn't done so this is just a mock-up. Functionallity coming soon! -->
   <form class="form">
-    User name:<br>
+    Username:<br>
     <input type="text" name="Username"><br>
     User password:<br>
     <input type="password" name="psw">
   </form>
-  <button onclick="SUVar()">Submit</button>
+   <button id="myButton2" class="signUpButton" >Sign Up</button>
 
-<p id="SU"></p>
-
-<script>
-function SUVar() {
-  document.getElementById("SU").innerHTML = "Stop peeking idiot this isnt added... yet";
-}
+<script type="text/javascript">
+    document.getElementById("myButton2").onclick = function () {
+        location.href = "account.html";
+    };
 </script>
     <script src="script.js"></script>
+  <!-- Some other HTML... -->
+  <div id="comments">
+  </div>
 </body>
 </html>

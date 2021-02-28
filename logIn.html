@@ -9,6 +9,9 @@
   </style>
 </head>
 <body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-database.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
     <ul>
@@ -19,21 +22,25 @@
       <li><a href="signUp.html"class="right">Sign Up</a></li>
       <li><a href="logIn.html"class="selectedRight">Log In</a>
     </ul>
-  <form class="form">
-    User name:<br>
-    <input type="text" name="Username"><br>
-    User password:<br>
-    <input type="password" name="psw">
-  </form>
-  <button onclick="Log()">Submit</button>
+    <!-- JS isn't done so this is just a mock-up. Functionallity coming soon! -->
+  <div class="boxed">
+    <form class="form">
+      Username:<br>
+      <input type="text" name="Username"><br>
+      User password:<br>
+      <input type="password" name="psw">
+    </form>
+    <button id="myButton" class="logInButton" >Log In</button>
+  </div>
 
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "account.html";
+    };
 </script>
     <script src="script.js"></script>
+<!-- Some other HTML... -->
+  <div id="comments">
+  </div>
 </body>
 </html>
