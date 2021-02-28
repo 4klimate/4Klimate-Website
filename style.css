@@ -1,0 +1,179 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 15px 15px 15px 15px;
+}
+.selectedLeft{
+  background-color: #111;
+  float: left;
+}
+
+.selectedRight{
+  background-color: #111;
+  float: right;
+}
+
+
+.left {
+  float: left;
+}
+.right{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #fbf7e1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+div.main{
+
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.aboutT{
+  font-size: 70px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.aboutM{
+  font-size: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.robert{
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 85%;
+  margin-right: -90%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: 'Lexend Deca', sans-serif
+}
+
+.robert1{
+  margin: 0;
+  position: absolute;
+  top: 46%;
+  left: 85%;
+  margin-right: -90%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lexend Deca', sans-serif
+}
+
+.simone{
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  margin-right: -90%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: 'Lexend Deca', sans-serif
+}
+
+.simone1{
+  margin: 0;
+  position: absolute;
+  top: 46%;
+  left: 60%;
+  margin-right: -90%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lexend Deca', sans-serif
+}
+
+.cyrus{
+  margin: 0;
+  position: absolute;
+  top: 63.5%;
+  left: 35%;
+  margin-right: -90%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: 'Lexend Deca', sans-serif
+}
+
+.cyrus1{
+  margin: 0;
+  position: absolute;
+  top: 46%;
+  left: 33%;
+  margin-right: -90%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lexend Deca', sans-serif
+}
+
+.louis{
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 12%;
+  margin-right: -90%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: 'Lexend Deca', sans-serif
+}
+
+.louis1{
+  margin: 0;
+  position: absolute;
+  top: 46%;
+  left: 10%;
+  margin-right: -90%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lexend Deca', sans-serif
+}
+
+
+.form{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.team{
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.advice:hover{
+  background-color:#111;cursor:cell
+}
+
+.advice{
+  background-color:#333;font-family:comic sans MS;
+  color:#fbf7e1;
+  border-radius:5px;
+  border:2px solid #333;
+  padding:40px 40px;
+  text-decoration:none;
+  text-shadow:-4px 4px 4px #333(0, 0, 0, 0.616);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 12px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
