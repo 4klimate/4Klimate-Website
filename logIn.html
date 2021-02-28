@@ -1,5 +1,10 @@
-<html>
+<!DOCTYPE html>
+<link rel="icon"  href="favicon.png">
 <head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <title>Klimate-log in</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
@@ -23,15 +28,18 @@
       <li><a href="logIn.html"class="selectedRight">Log In</a>
     </ul>
     <!-- JS isn't done so this is just a mock-up. Functionallity coming soon! -->
-  <div class="boxed">
-    <form class="form">
-      Username:<br>
-      <input type="text" name="Username"><br>
-      User password:<br>
-      <input type="password" name="psw">
+    <form>
+      <fieldset>
+        <legend> Enter in your account information! </legend>
+          <form class="form">
+            Username:<br>
+            <input type="text" name="Username"><br>
+            User password:<br>
+            <input type="password" name="psw">
+          </form>
+          <button id="myButton" class="logInButton" >Log In</button>
+      </fieldset>
     </form>
-    <button id="myButton" class="logInButton" >Log In</button>
-  </div>
 
 <script type="text/javascript">
     document.getElementById("myButton").onclick = function () {

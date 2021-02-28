@@ -272,6 +272,11 @@ th, td{
   border: 2px solid black;
 }
 
-boxed.{
-  border: 2px solid black;
+legend {
+  background-color: #e1e1e1;
+  color: #333;
+}
+
+fieldset{
+  background-color: rgba(225,225,225)
 }
