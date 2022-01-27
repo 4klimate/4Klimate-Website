@@ -12,8 +12,8 @@ function randomAdvice(){
 }
 
 dictionary = {
-  'first':["Robert Goll", 4],
-  'second':["Louis Sansevero", 3],
+  'first':["Louis Sansevero", 4],
+  'second':["Robert Goll", 3],
   'third':["Simone Zabid", 2],
   'fourth':["Cyrus Kottmeier", 1]
 };
@@ -26,3 +26,7 @@ console.log(dictionary.first[0])
 //var t = document.createTextNode(dictionary.first[0]);
 //x.appendChild(t);
 //document.body.appendChild(x);
+
+function adding(){
+  CC += 1
+}

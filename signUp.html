@@ -29,14 +29,20 @@
       <li><a href="logIn.html"class="right">Log In</a>
     </ul>
     <!-- JS isn't done so this is just a mock-up. Functionallity coming soon! -->
-  <form class="form">
-    Username:<br>
-    <input type="text" name="Username"><br>
-    User password:<br>
-    <input type="password" name="psw">
-  </form>
-   <button id="myButton2" class="signUpButton" >Sign Up</button>
-
+  <form>
+      <fieldset>
+        <legend> Sign up with a user and password below! </legend>
+          <form class="form">
+            Username:<br>
+            <input type="text" class="Username"><br>
+            User password:<br>
+            <input type="password" name="psw">
+          </form>
+          <form>
+            <a href="account.html" button id="myButton" class="signUpButton"> Sign  up </a>
+          </form>
+      </fieldset>
+    </form>
 <script type="text/javascript">
     document.getElementById("myButton2").onclick = function () {
         location.href = "account.html";

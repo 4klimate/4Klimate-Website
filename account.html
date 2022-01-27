@@ -36,6 +36,27 @@
       <button onclick="randomAdvice()" class="advice">Daily Advice</button>
       <!-- JS isn't done so this is just a mock-up. Functionallity coming soon! -->
       <h2 class="pName">Profile Name: Robert Goll</h2>
+      <h2 class="pCS" id="CC">Completed Challenges: </h2>
+      <script>
+var CC = 3
+var para = document.createElement("p");
+var node = document.createTextNode(CC);
+para.appendChild(node);
+var element = document.getElementById("CC");
+element.appendChild(para);
+     </script>
+      <h2 class="pCF" id = "CF">Failed Challenges: </h2>
+    <script>
+var CF = 1
+var para = document.createElement("p");
+var node = document.createTextNode(CF);
+para.appendChild(node);
+var element = document.getElementById("CF");
+element.appendChild(para);
+     </script>
+     <button type="button" onclick = adding()>Click Me!</button>
+ 
+
     </div>
     <script src="script.js"></script>
 <!-- Some other HTML... -->

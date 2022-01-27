@@ -193,41 +193,6 @@ div.main{
   text-align: center;
 }
 
-.logInButton{
-  background-color:#333;font-family:comic sans MS;
-  color:#fbf7e1;
-  border-radius:5px;
-  border:2px solid #333;
-  text-decoration:none;
-  text-shadow:-4px 4px 4px #333(0, 0, 0, 0.616);
-  font-family: 'Lexend Deca', sans-serif;
-  font-size: 15px;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.signUpButton{
-  background-color:#333;
-  color:#fbf7e1;
-  border-radius:5px;
-  border:2px solid #333;
-  text-decoration:none;
-  text-shadow:-4px 4px 4px #333(0, 0, 0, 0.616);
-  font-family: 'Lexend Deca', sans-serif;
-  font-size: 15px;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-}
 
 .profile {
   font-family: 'Lexend Deca', sans-serif;
@@ -260,6 +225,20 @@ div.main{
 .pName{
   /* margin: 0 auto 0 auto; */
   text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 35px
+}
+
+.pCS {
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 35px
+}
+
+.pCF {
+  text-align: center;
+  font-family: 'Lexend Deca', sans serif;
+  font-size: 35px
 }
 
 .lBoard{
@@ -273,10 +252,62 @@ th, td{
 }
 
 legend {
-  background-color: #e1e1e1;
+  background-color: rgba(225,225,225,0.561;)
   color: #333;
 }
 
+.signUpButton{
+  background-color:#333;
+  font-family:comic sans MS;
+  color:#fbf7e1;
+  border-radius:5px;
+  border:2px solid #333;
+  text-decoration:none;
+  text-shadow:-4px 4px 4px #333(0, 0, 0, 0.616);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  position: absolute;
+  top: 76%;
+  left: 79%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.logInButton{
+  background-color:#333;
+  font-family:comic sans MS;
+  color:#fbf7e1;
+  border-radius:5px;
+  border:2px solid #333;
+  text-decoration:none;
+  text-shadow:-4px 4px 4px #333(0, 0, 0, 0.616);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  position: absolute;
+  top: 76%;
+  left: 88%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
 fieldset{
-  background-color: rgba(225,225,225)
+  insert: logInButton;
+  background-color: rgba(225, 225, 225, 0.561);
+  margin: 0;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  max-width: 500px;
+  max-length: 500px;
+  font-family:'Lexend Deca', sans-serif;
+}
+
+.acoountButton {
+	background-color: #333;
+	font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
 }
