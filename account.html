@@ -33,9 +33,13 @@
     </ul>
     <div class="sarthakteachesthisteamflexbox">
       <h1 class="profile">Your Profile:</h1>
-      <button onclick="randomAdvice()" class="advice">Daily Advice</button>
+      <script>
+        const advice = ['Dont leave your water running', 'Use recycled bags while shopping', 'Ride your bike, walk, or use public transportation instead of driving a car', 'Recycle and compost', 'Use natural cleaning products', 'Switch off appliances when not in use', 'Unplug your charger when your device is fully charged', 'Wash your clothes at low temperature', 'Use short cycles for washing clothes', 'Fix leaks', 'Take short showers', 'Turn off the tap while brushing your teeth', 'Choose local seasonal produce', 'Reduce the amount of meals you eat containing meat', 'Avoid bottled water', 'Buy recycled paper', 'Grow food', 'Plant a tree', 'Dont litter', 'buy a solar powered light', 'buy from environmentally friendly companies'];
+        
+      </script>
+      <button onclick="randomAdvice(advice)" class="advice">Daily Advice</button>
       <!-- JS isn't done so this is just a mock-up. Functionallity coming soon! -->
-      <h2 class="pName">Profile Name: Robert Goll</h2>
+      <h2 class="pName">Profile Name: Anonymous(not logged in)</h2>
       <h2 class="pCS" id="CC">Completed Challenges: </h2>
       <script>
 var CC = 3
@@ -44,7 +48,9 @@ var node = document.createTextNode(CC);
 para.appendChild(node);
 var element = document.getElementById("CC");
 element.appendChild(para);
-     </script>
+console.log(CC);
+
+      </script>
       <h2 class="pCF" id = "CF">Failed Challenges: </h2>
     <script>
 var CF = 1
@@ -54,8 +60,7 @@ para.appendChild(node);
 var element = document.getElementById("CF");
 element.appendChild(para);
      </script>
-     <button type="button" onclick = adding()>Click Me!</button>
- 
+
 
     </div>
     <script src="script.js"></script>

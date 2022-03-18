@@ -2,13 +2,18 @@
    // This is where our code will go
 //});
 
-function randomAdvice(){
-  advice = ['Dont leave your water running', 'Use recycled bags while shopping', 'Ride your bike, walk, or use public transportation instead of driving a car', 'Recycle and compost', 'Use natural cleaning products', 'Switch off appliances when not in use', 'Unplug your charger when your device is fully charged', 'Wash your clothes at low temperature', 'Use short cycles for washing clothes', 'Fix leaks', 'Take short showers', 'Turn off the tap while brushing your teeth', 'Choose local seasonal produce', 'Reduce the amount of meals you eat containing meat', 'Avoid bottled water', 'Buy recycled paper', 'Grow food', 'Plant a tree', 'Dont litter'];
 
+function randomAdvice(advice){
   randomValue = advice[Math.floor(Math.random() * advice.length)];
-  
-  console.log(randomValue);
-  alert(randomValue);
+  if (advice.length >= 1){
+    alert(randomValue);
+  }
+  else{
+    alert('congrats you have completed every challenge!')
+  }
+  advice = advice.splice(advice.indexOf(randomValue), 1);
+  console.log(advice);
+
 }
 
 dictionary = {
@@ -28,5 +33,6 @@ console.log(dictionary.first[0])
 //document.body.appendChild(x);
 
 function adding(){
-  CC += 1
+  CC++;
+  console.log(CC);
 }

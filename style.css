@@ -48,11 +48,7 @@ div.main{
   flex: 1;
 }
 
-.aboutM{
-  font-size: 30px;
-  font-family: 'Lexend Deca', sans-serif;
-  flex: 1;
-}
+
 
 .robert{
   margin: 0;
@@ -158,9 +154,28 @@ div.main{
 }
 
 .team{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  margin-right: -90%;
+  transform: translate(-50%, -50%);
   font-family: 'Lexend Deca', sans-serif;
   flex: 1;
 }
+
+
+.aboutM{
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lexend Deca', sans-serif;
+  flex: 1;
+}
+
 
 .advice:hover{
   background-color: #111;
